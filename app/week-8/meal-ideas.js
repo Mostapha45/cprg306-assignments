@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function MealIdeas({ ingredient }) {
@@ -101,7 +102,7 @@ export default function MealIdeas({ ingredient }) {
                             onClick={() => handleMealClick(meal.idMeal)}
                         >
                             <div style={{ display: "flex", alignItems: "center" }}>
-                                <img
+                                <Image
                                     src={meal.strMealThumb}
                                     alt={meal.strMeal}
                                     style={{ width: "50px", height: "50px", marginRight: "10px" }}
