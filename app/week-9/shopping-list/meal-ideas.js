@@ -102,7 +102,7 @@ export default function MealIdeas({ ingredient }) {
                             onClick={() => handleMealClick(meal.idMeal)}
                         >
                             <div style={{ display: "flex", alignItems: "center" }}>
-                                <Image
+                                <img
                                     src={meal.strMealThumb}
                                     alt={meal.strMeal}
                                     style={{ width: "50px", height: "50px", marginRight: "10px" }}
