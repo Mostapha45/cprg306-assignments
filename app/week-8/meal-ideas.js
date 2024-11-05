@@ -83,7 +83,7 @@ export default function MealIdeas({ ingredient }) {
             {loading ? (
                 <p>Loading...</p>
             ) : meals.length === 0 ? (
-                <p>No meals found for "{ingredient}".</p>
+                <p>No meals found for &quot;{ingredient}&quot;.</p>
             ) : (
                 <ul>
                     {meals.map((meal) => (
