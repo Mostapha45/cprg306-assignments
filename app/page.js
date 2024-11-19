@@ -31,6 +31,9 @@ export default function Home() {
         <Link href="/week-9" className="text-xl block py-2 px-4 bg-purple-400 hover:bg-purple-700 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-center w-full">
           Go to Week 9 Page
         </Link>
+        <Link href="/week-10" className="text-xl block py-2 px-4 bg-purple-400 hover:bg-purple-700 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-center w-full">
+          Go to Week 10 Page
+        </Link>
       </div>
     </div>
   );
